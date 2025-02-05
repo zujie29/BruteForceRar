@@ -16,17 +16,22 @@
 
 ### **Requirements (Prérequis)**  
 Pour exécuter ce programme correctement, vous devez avoir :  
-🔹 **Un système Linux** (ou WSL sous Windows)  
+🔹 **Un système Linux** (ou WSL sous Windows)
+🔹 **Installer git**
+```bash
+$ sudo apt install git
+```
 🔹 **Le compilateur g++** installé (via `sudo apt install g++` si nécessaire)  
 🔹 **L'outil `unrar` installé** (`sudo apt install unrar`)  
 🔹 **Des permissions suffisantes** pour exécuter des commandes système  
 
 **Compilation et exécution :**  
 ```bash
-$g++ -o brute_force_rar brute_force_rar.cpp
-$./brute_force_rar
+$ g++ -o brute_force_rar brute_force_rar.cpp
+$ ./brute_force_rar
 ```
-
+---
+### **Installation :**
 ---
 
 ### **Limitations et améliorations possibles**  
