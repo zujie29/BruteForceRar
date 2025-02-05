@@ -23,8 +23,8 @@ Pour exécuter ce programme correctement, vous devez avoir :
 
 **Compilation et exécution :**  
 ```bash
-g++ -o brute_force_rar brute_force_rar.cpp -std=c++11
-./brute_force_rar
+$g++ -o brute_force_rar brute_force_rar.cpp
+$./brute_force_rar
 ```
 
 ---
