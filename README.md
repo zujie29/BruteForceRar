@@ -16,7 +16,7 @@
 
 ### **Requirements (Prérequis)**  
 Pour exécuter ce programme correctement, vous devez avoir :  
-🔹 **Un système Linux** (ou WSL sous Windows)
+🔹 **Un système Linux** (ou WSL sous Windows)     
 🔹 **Installer git**
 ```bash
 $ sudo apt install git
@@ -25,13 +25,18 @@ $ sudo apt install git
 🔹 **L'outil `unrar` installé** (`sudo apt install unrar`)  
 🔹 **Des permissions suffisantes** pour exécuter des commandes système  
 
-**Compilation et exécution :**  
+** :**  
+---
+### **Installation, Compilation et Exécution :**
 ```bash
+$ sudo apt update & upgrade
+$ sudo install git
+$ sudo git clone https://github.com/zujie29/BruteForceRar
+$ cd BruteForceRar
+$ chmod +x brute_force_rar.cpp
 $ g++ -o brute_force_rar brute_force_rar.cpp
 $ ./brute_force_rar
 ```
----
-### **Installation :**
 ---
 
 ### **Limitations et améliorations possibles**  
